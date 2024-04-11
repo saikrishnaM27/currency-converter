@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.switch:hover {
+  cursor: pointer;
+}
+
+.convert {
+  text-align: center;
+}
+
+.convert button {
+  font-size: large;
+  font-weight: bold;
+}
+.inputField *{
+margin: 0 2%;
+}
+
+@media screen and (orientation:portrait) {
+  * {
+    margin-bottom: 3px !important;
+  }
+
+  .converterApp {
+    margin: auto !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .inputField {
+    display: block !important;
+  }
+
+  .amount {
+    display: block !important;
+  }
+
+  .convert button {
+    width: 100% !important;
+  }
+}
