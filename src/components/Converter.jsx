@@ -54,11 +54,9 @@ const Converter = () => {
 
                     </select>
                 </div>
-
                 <div className="switch">
                     <h3><b><i className="bi bi-arrow-left-right"></i></b></h3>
                 </div>
-
                 <div className="to">
                     <h3>To</h3>
                     <select className="form-select" value={to} onChange={(e) => setTo(e.target.value)}>
