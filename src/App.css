@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: rgb(226, 226, 226);
+}
+
 .switch:hover {
   cursor: pointer;
 }
@@ -15,8 +19,9 @@
   font-size: large;
   font-weight: bold;
 }
-.inputField *{
-margin: 0 2%;
+
+.inputField * {
+  margin: 0 2%;
 }
 
 @media screen and (orientation:portrait) {
