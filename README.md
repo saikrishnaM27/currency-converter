@@ -9,3 +9,8 @@ Currently, two official plugins are available:
 
 
 # Currency Converter tool by Saikrishna
+
+- Project Developed using React.js Framework
+- Get latest Currency exchange rates with upto date
+- Github link Exchange API: "https://github.com/fawazahmed0/exchange-api"
+- API used for this tool is "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
