@@ -3,7 +3,7 @@ import { countries } from '../contries/countries'
 const Converter = () => {
     //https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json
 
-    const [input, setInput] = useState(1);
+    const [input, setInput] = useState(0);
     const [from, setFrom] = useState('aud');
     const [to, setTo] = useState('inr');
     const [cAmt, setCAmt] = useState(0);
